@@ -18,21 +18,23 @@ body {
     padding: 80px;
     border-radius: 10px;
     width: 80%;
-    position: relative; 
+    position: fixed; 
   }
   
   .pastry {
+    display:flex;
+    align-content:center;
     color: #533117;
-    padding: 20px;
+    padding: 30px;
     border-radius: 50%;
     font-size: 18px;
-    position: absolute;
-    
+    float: left;
+    margin: 50px;
   }
   
   .pastry img {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
   }
   
   .pastry1 { /* Cookie */
